@@ -1,5 +1,5 @@
 const mongoose  = require('mongoose');
-const DB_URL = process.env.DB_URL_LOCAL; // local DB url
+const DB_URL ="mongodb+srv://pollingApi:qwertyuiop@cluster0.kl1fyn7.mongodb.net/"; // local DB url
 mongoose.connect(DB_URL);
 
 
