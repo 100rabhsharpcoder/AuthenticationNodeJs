@@ -1,0 +1,15 @@
+Polling System API
+The Polling System API is a Node.js application that provides a simple polling system where users can create questions, add options to questions, and add votes to options.
+
+The application should now be running on http://127.0.0.1:8000.
+
+Features
+Create a question = http://127.0.0.1:8000/api/v1/questions/create
+Add options to a specific question = http://127.0.0.1:8000/api/v1/options/64b6c7e91078511fe9853a47/create
+Add votes to options of a question = http://localhost:8000/api/v1/options/64b6c6851078511fe9853a25/addvote
+Delete a question (optional: if none of its options has votes) = 
+Delete an option (optional: if it has no votes) = http://127.0.0.1:8000/api/v1/options/delete/64b6c6b71078511fe9853a2a
+View a question with its options and votes = http://127.0.0.1:3000/api/v1/questions/view/64b6c6611078511fe9853a18
+
+author saurabh gathade
+email:saurabhgathade@gmail.com
